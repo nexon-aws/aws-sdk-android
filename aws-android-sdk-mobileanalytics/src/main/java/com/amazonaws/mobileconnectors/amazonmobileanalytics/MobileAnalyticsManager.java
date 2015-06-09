@@ -295,4 +295,8 @@ public class MobileAnalyticsManager {
             return instanceMap.get(appId);
         }
     }
+    
+    public void setEndPoint(String endPoint){
+        context.getERSClient().setEndpoint(endPoint);
+    }
 }
